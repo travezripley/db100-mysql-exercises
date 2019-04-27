@@ -72,16 +72,40 @@ SELECT * FROM customer WHERE last_name LIKE '%s' AND first_name LIKE 'n%';
 
 
 # 3e. Select all columns from the customer table for rows where the customer is inactive or has a last name ending with "M".
+SELECT * FROM customer WHERE active=0 or last_name LIKE 'm%';
 
 
 # 3f. Select all columns from the category table for rows where the primary key is greater than 4 and the name field begins with either "C", "S" or "T".
-
+SELECT * FROM category WHERE category_id < 4 AND (name LIKE 'n%') or (name LIKE 'c%') or (name LIKE 't%');
 
 # 3g. Select all columns minus the password column from the staff table for rows that contain a password.
+SELECT 
+    staff_id, 
+    first_name, 
+    last_name, 
+    address_id, 
+    picture, email, 
+    store_id, 
+    active, 
+    username, 
+    password, 
+    last_update 
+    FROM staff WHERE password IS NOT NULL;
 
 
 # 3h. Select all columns minus the password column from the staff table for rows that do not contain a password.
-
+SELECT 
+    staff_id, 
+    first_name, 
+    last_name, 
+    address_id, 
+    picture, email, 
+    store_id, 
+    active, 
+    username, 
+    password, 
+    last_update 
+    FROM staff WHERE password IS NULL;
 
 # ---------------------------------------------------------#
 
