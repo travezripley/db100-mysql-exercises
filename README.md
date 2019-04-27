@@ -1,5 +1,20 @@
 # MySQL Exercises
 
+## Thee Project in the DB100 * Module @ San Diego Code School
+
+# Stay tuned today, KTRAV Channel 13 We will be bringin you, your local headlines with: 
+
+# Author - Michel Roberts JR.
+
+# Modified by Travis Ripley, * Started Saturday April 26th, 2019 11:00am
+
+## Right after this commercial break:
+
+
+## Introduction
+
+# MySQL Exercises
+
 ## Introduction
 
 In this project we're going to:
@@ -97,3 +112,7 @@ Now it's your turn. Utilize your resources and knowledge of SQL to complete the 
 There is no need to publish this to now.sh and you can provide the github url only for this project submission. [Submit your project](https://goo.gl/forms/wx8DLSus7s88lk043) 
 
 ##
+#Thank you for taking the time to look at my projects,
+
+#Also please follow my progress on youtube: 
+https://www.youtube.com/channel/UCXv4p-lDYeWXPlnoRFYCSUg
