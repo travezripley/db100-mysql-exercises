@@ -20,6 +20,6 @@
     "mysql": "^2.13.0"
   },
   "dependencies": {
-    "async": "^2.5.0"
+    "async": "^2.6.4"
   }
 }
